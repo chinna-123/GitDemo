@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.217" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Portal Login" name="Home page default login" time="0.01">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login into application with "jim" and password "1234".............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login" time="0.002">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login into application with "john" and password "4321"............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login" time="0.002">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login into application with "john" and password "4321"............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login" time="0.01">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User sign up with following details....................................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.1" time="0.003">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login in to application with user1 and password pass1.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.2" time="0.006">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login in to application with user2 and password pass2.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.3" time="0.002">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login in to application with user3 and password pass3.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.4" time="0.003">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given User is on NetBanking landing page....................................passed
+When User login in to application with user4 and password pass4.............passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
